@@ -6,20 +6,20 @@ import App from './App'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
-// new Vue({
-//   el: '#app',
-//   components: {
-//     App
-//   },
-//   template: '<App/>'
-// })
-document.addEventListener('deviceready', function() {
-  new Vue({
-    el: '#app',
-    template: '<App/>',
-    components: {
-      App
-    }
-  })
-  window.navigator.splashscreen.hide()
-}, false);
+new Vue({
+  el: '#app',
+  components: {
+    App
+  },
+  template: '<App/>'
+})
+// document.addEventListener('deviceready', function() {
+//   new Vue({
+//     el: '#app',
+//     template: '<App/>',
+//     components: {
+//       App
+//     }
+//   })
+//   window.navigator.splashscreen.hide()
+// }, false);
